@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	gosocks5 "github.com/go-gost/gosocks5"
-	"github.com/go-gost/gosocks5/client"
-	"github.com/go-gost/gosocks5/server"
+	gosocks5 "github.com/dolfly/gosocks5"
+	"github.com/dolfly/gosocks5/client"
+	"github.com/dolfly/gosocks5/server"
 )
 
 // startTestServer starts a local SOCKS5 server and returns its address.

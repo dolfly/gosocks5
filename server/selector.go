@@ -4,7 +4,7 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/go-gost/gosocks5"
+	"github.com/dolfly/gosocks5"
 )
 
 var (

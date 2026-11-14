@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	gosocks5 "github.com/go-gost/gosocks5"
-	"github.com/go-gost/gosocks5/client"
-	"github.com/go-gost/gosocks5/server"
+	gosocks5 "github.com/dolfly/gosocks5"
+	"github.com/dolfly/gosocks5/client"
+	"github.com/dolfly/gosocks5/server"
 )
 
 func TestServer_Addr(t *testing.T) {
@@ -294,7 +294,6 @@ func TestHandler_HandleConnect_Unreachable(t *testing.T) {
 	}
 	t.Logf("unreachable target reply: %d", reply.Rep)
 }
-
 
 // Test handler with BIND command
 func TestHandler_Handle_Bind(t *testing.T) {

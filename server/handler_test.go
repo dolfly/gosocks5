@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/go-gost/gosocks5"
+	"github.com/dolfly/gosocks5"
 )
 
 func TestTransport_BidirectionalCopy(t *testing.T) {

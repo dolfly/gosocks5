@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	gosocks5 "github.com/go-gost/gosocks5"
-	"github.com/go-gost/gosocks5/client"
+	gosocks5 "github.com/dolfly/gosocks5"
+	"github.com/dolfly/gosocks5/client"
 )
 
 // errorSelector always returns an error in OnSelected.
